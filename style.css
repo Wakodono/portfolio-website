@@ -4,6 +4,10 @@ nav {
   align-items: center;
 }
 
+body {
+  margin: 1em;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -28,4 +32,9 @@ nav ul li a:hover {
 
 nav ul li a:active {
   color: blue;
+}
+
+i {
+  font-size: 1.25em;
+  margin-right: 2em;
 }
