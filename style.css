@@ -30,11 +30,40 @@ nav ul li a:hover {
   font-size: 1.5em;
 }
 
-nav ul li a:active {
-  color: blue;
-}
-
 i {
   font-size: 1.25em;
   margin-right: 2em;
+}
+
+#projects ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: square;
+}
+
+#projects ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#projects ul li a:hover {
+  cursor: pointer;
+}
+
+#about-me {
+  display: flex;
+  align-items: center;
+}
+
+.about-me-text {
+  flex-grow: 1;
+}
+
+.profile-img {
+  margin-left: 1.5em;
+}
+
+.profile-img img {
+  max-width: 100%;
+  height: auto;
 }
