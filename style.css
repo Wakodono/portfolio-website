@@ -50,9 +50,13 @@ i {
   cursor: pointer;
 }
 
-#about-me {
+section #about-me {
   display: flex;
   align-items: center;
+}
+
+.about-me-content {
+  display: flex;
 }
 
 .about-me-text {
@@ -63,7 +67,7 @@ i {
   margin-left: 1.5em;
 }
 
-.profile-img img {
+.about-me-content img {
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
